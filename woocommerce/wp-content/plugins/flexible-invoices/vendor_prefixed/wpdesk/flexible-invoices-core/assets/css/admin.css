@@ -1,0 +1,293 @@
+/* Settings */
+.inspire-settings img.ui-datepicker-trigger {
+	cursor: pointer;
+	margin-top: -1px;
+	vertical-align: middle;
+}
+
+textarea.wide-input, select.wide-input {
+	width: 100%;
+}
+
+/* Metaboxes Custom Actions */
+.inspire-panel .metabox-actions {
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	clear: both;
+	padding: 10px;
+}
+
+.inside .inspire-panel .metabox-actions,
+#submitdiv2 #major-publishing-actions {
+	 margin: 0 -12px -12px;
+}
+
+#submitdiv2 #major-publishing-actions {
+	margin-top: -7px;
+}
+
+.inspire-panel .metabox-actions .button {
+	margin: 0 5px 10px 0;
+}
+
+/* Publish Metabox Edits */
+body.post-type-inspire_invoice #minor-publishing {
+	display: none;
+}
+
+body.post-type-inspire_invoice #submitdiv h3 {
+	border-bottom: 0;
+}
+
+/**
+ # Meta boxes styles.
+ */
+.inspire-panel p:after, .inspire-panel .form-field:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.inspire-panel p, .inspire-panel .form-field, .inspire-panel div.hard-candy {
+	margin: 9px 0;
+	padding: 5px 3px;
+}
+
+.inspire-panel label {
+	float: left;
+	line-height: 24px;
+	padding: 0;
+	width: 150px;
+}
+
+.inspire-panel input, .inspire-panel textarea {
+	float: left;
+	width: 50%;
+}
+
+.inspire-panel input.fluid, .inspire-panel textarea.fluid {
+	width: calc(100% - 150px);
+}
+
+.inspire-panel input.medium, .inspire-panel textarea.medium {
+	width: 25em;
+}
+
+.inspire-panel input.short, .inspire-panel textarea.short {
+	width: 20%;
+}
+
+.inspire-panel input.datepicker, .inspire-panel input.currency {
+	width: 100px;
+}
+
+.inspire-panel .lonely label {
+	float: none;
+	width: auto;
+}
+
+.inspire-panel .lonely input {
+	float: none;
+	width: auto;
+}
+
+.inspire-panel .options-group {
+	border-bottom: 1px solid #DFDFDF;
+	border-top: 1px solid #FFFFFF;
+}
+
+.inspire-panel .options-group:first-child {
+	border-top: 0;
+}
+
+.inspire-panel .options-group:last-child {
+	border-bottom: 0;
+}
+
+.inspire-panel .options-group:last-child p {
+	margin-bottom: 0;
+}
+
+.inspire-panel img.ui-datepicker-trigger {
+	float: left;
+	margin: 6px 0 0 3px;
+}
+
+/**
+ # End Meta Boxes.
+ */
+
+/* Select2 */
+.select2-container li {
+    margin-bottom: 0;
+}
+
+.tablenav .select2-container {
+    float: left;
+    margin: 1px 6px 1px 1px;
+    max-width: 200px;
+    vertical-align: middle;
+}
+
+#inspire_invoice_client_select_wrap {
+	width: 27em;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#inspire_invoice_client_select_wrap .select2-container {
+    width: 100%;
+}
+
+.select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* Table */
+table.products {
+	border-collapse: collapse;
+	margin-bottom: 12px;
+}
+
+table.products input, table.products select, table.products textarea {
+	font-size: 12px;
+}
+
+table.products input {
+	width: 100%;
+}
+
+table.products th, table.products td {
+	border: 1px solid #e5e5e5;
+}
+
+table.products th {
+	font-size: 12px;
+}
+
+table.products th.product-title {
+	width: 30%;
+}
+
+table.products th.product-actions {
+	width: 20px;
+}
+
+table.products a.remove_product {
+	color: #a00;
+	display: inline-block;
+	padding: 3px 0 0;
+}
+
+table.products a.remove_product:hover {
+	color: red;
+}
+
+table.products select {
+	height: 25px;
+	line-height: 25px;
+	margin: 0;
+}
+
+
+
+.wc_error_tip {
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+    border-radius: 3px;
+    padding: .618em 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    max-width: 20em;
+    line-height: 1.8em;
+    position: absolute;
+    white-space: normal;
+    background: #d82223;
+    margin: 1.5em 1px 0 -1em;
+    z-index: 9999999;
+}
+
+.wc_error_tip:after {
+    content: "";
+    display: block;
+    border: 8px solid #d82223;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin: -1em 0 0 -3px;
+}
+
+.is_duplicated {
+	color: red;
+}
+
+tr.signature-user {
+	display: none;
+}
+
+.inside .main {
+	padding-bottom: 10px;
+}
+
+.remove-disabled {
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px 4px;
+	box-shadow: none;
+	outline: 0;
+}
+
+.remove-disabled:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+.column-wc_actions p p {
+	display: none;
+}
+
+.amount-error {
+    color: red;
+}
+
+@media screen and (max-width: 1280px) {
+    .fixed .column-client_country,
+    .fixed .column-netto,
+    .fixed .column-products,
+    .fixed .column-taxes,
+    .fixed .column-sku,
+    .fixed .column-pay,
+    .fixed .column-sale,
+    .fixed .column-order,
+    .fixed .column-status,
+    .fixed .column-currency
+    {
+        display: none ! important;
+    }
+}
+
+@media screen and (max-width: 782px) {
+
+    .fixed .column-client_vat_number,
+    .fixed .column-client_filtered {
+        display: none ! important;
+    }
+
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .fixed .column-issue {
+        display: none ! important;
+    }
+
+}

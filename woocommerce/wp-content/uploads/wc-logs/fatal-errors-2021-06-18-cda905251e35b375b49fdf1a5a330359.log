@@ -1,0 +1,400 @@
+2021-06-18T08:23:48+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(201, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:25:26+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:27:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(295, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:27:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(296, 'Async Request')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:28:38+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:29:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(297, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:30:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(298, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:31:59+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:34:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(299, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:36:47+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:36:48+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(300, 'Async Request')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:41:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(301, 'Async Request')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:41:11+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:42:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(302, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:43:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(303, 'WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:46:39+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:51:32+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T08:51:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(304, 'Async Request')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T08:56:12+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T09:01:10+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T09:06:48+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T09:06:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(305, 'Async Request')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+
+2021-06-18T09:12:51+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T09:16:54+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-06-18T09:52:06+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php on line 811 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(811): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(440)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+

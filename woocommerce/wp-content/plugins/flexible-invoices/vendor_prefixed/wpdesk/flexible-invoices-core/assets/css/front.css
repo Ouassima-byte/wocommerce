@@ -1,0 +1,167 @@
+.fix {
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Globals */
+body {
+	background: #FFF;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5;
+	margin: 0 auto;
+	width: 95%;
+	-webkit-print-color-adjust: exact;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#wrapper {
+	padding: 20px 0;
+}
+
+#header {
+	padding: 0 0 25px;
+}
+
+#logo {
+	float: left;
+}
+
+.logo {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+}
+
+p.report-title {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 15px;
+	text-align: center;
+}
+
+/* Table for logo & dates */
+#header table td {
+	border: none;
+	padding: 0;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	margin: 0 0 20px;
+	text-align: left;
+	width: 100%;
+}
+
+table.totals td {
+	border: 1px solid #FFF;
+}
+
+table td, table th {
+	border: 1px solid #333;
+	padding: 4px;
+	vertical-align: top;
+}
+
+table th {
+	background-color: #F1F1F1;
+	font-weight: bold;
+	text-align: center;
+}
+
+table td.center {
+	text-align: center;
+}
+
+table td.number {
+	text-align: right;
+}
+
+table tfoot .total td {
+	background-color: #F1F1F1;
+	font-weight: bold;
+}
+
+table tfoot td.empty {
+	background-color: #FFF;
+	border: none;
+}
+
+table tfoot td.sum-title {
+	border: none;
+	background-color: #FFF;
+	text-align: right;
+}
+
+table tfoot .total td.sum-title {
+	text-transform: uppercase;
+}
+
+/* Reports */
+#company {
+	float: right;
+}
+
+#company p.name {
+	font-weight: bold;
+}
+
+#signature {
+	float: right;
+	padding: 50px 0 0;
+	text-align: center;
+}
+
+/* Invoice */
+#dates {
+	float: right;
+	text-align: right;
+}
+
+#companies {
+	margin: 30px 0 0;
+}
+
+#companies .seller {
+	float: left;
+	margin: 0 5% 0 0;
+	width: 45%;
+}
+
+#companies .buyer {
+	float: right;
+	width: 50%;
+}
+
+#companies .title {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#signatures {
+	margin: 75px 0 0;
+}
+
+#signatures table {
+    border-collapse: collapse;
+    border: 0;
+}
+
+#signatures table td {
+    border-collapse: collapse;
+    border: 0;
+    text-align: center;
+}
+
+#footer {
+	margin: 50px 0 0;
+}

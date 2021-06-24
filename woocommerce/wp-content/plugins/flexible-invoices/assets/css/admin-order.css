@@ -1,0 +1,69 @@
+/* Order Actions Icons */
+.post-type-inspire_invoice .widefat .column-actions {
+	width: 70px;
+}
+
+.post-type-inspire_invoice .widefat .column-actions a.button {
+    float: left;
+    margin: 0 4px 2px 0;
+    cursor: pointer;
+    padding: 3px 4px;
+    height: auto;
+}
+
+.actions .view-invoice,
+.actions .get-invoice,
+.order_actions .generate-invoice,
+.order_actions .get-invoice,
+.order_actions .view-invoice,
+.wc_actions .generate-invoice,
+.wc_actions .get-invoice,
+.wc_actions .view-invoice
+{
+	display: block;
+	height: 2em !important;
+	padding: 0 !important;
+	position: relative;
+	text-indent: -9999px;
+	width: 2em;
+}
+
+.actions .view-invoice:after,
+.actions .get-invoice:after,
+.order_actions .generate-invoice:after,
+.order_actions .get-invoice:after,
+.order_actions .view-invoice:after,
+.wc_actions .generate-invoice:after,
+.wc_actions .get-invoice:after,
+.wc_actions .view-invoice:after
+{
+	font-size: 15px;
+	left: 0;
+	position: absolute;
+	text-indent: 0;
+	width: 100%;
+}
+
+.order_actions .generate-invoice:after,
+.wc_actions .generate-invoice::after
+{
+	content: ""!important;
+}
+
+.actions .view-invoice:after,
+.order_actions .view-invoice:after,
+.wc_actions .view-invoice::after
+{
+	content: ""!important;
+}
+
+.actions .get-invoice:after,
+.order_actions .get-invoice:after,
+.wc_actions .get-invoice:after
+{
+	content: "\f316"!important;
+}
+
+.widefat .column-wc_actions {
+	width: 110px!important;
+}

@@ -1,0 +1,23 @@
+body {
+	width: 100% !important;
+}
+
+#wrapper {
+	padding: 0 !important;
+}
+
+.print {
+	display: none !important;
+}
+
+table {
+	border-collapse: collapse !important;
+}
+
+.pagebreak {
+	page-break-before: always;
+}
+
+.no-page-break {
+	page-break-after: avoid;
+}

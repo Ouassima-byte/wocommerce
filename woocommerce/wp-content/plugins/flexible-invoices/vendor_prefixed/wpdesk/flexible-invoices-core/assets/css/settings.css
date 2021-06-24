@@ -1,0 +1,272 @@
+/* WooCommerce Admin Table */
+table.flexible_invoices_tax {
+	color: #2ea2cc;
+	background-color: #FFF;
+	border-collapse: collapse;
+	border: 1px solid #DDD;
+	table-layout: auto;
+	width: 100%;
+}
+
+.flexible_invoices_tax input[type="text"]:focus {
+	border: 0;
+	box-shadow: none;
+	background-color: #f9f9f9;
+	border-radius: 0;
+}
+
+table.flexible_invoices_tax th {
+	border-right: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 10px 10px;
+	width: auto;
+}
+
+table.flexible_invoices_tax td {
+	padding: 0;
+	border-right: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	border-top: 0;
+	background: #fff;
+	width: auto;
+}
+
+table.flexible_invoices_tax td select,
+table.flexible_invoices_tax td input[type=text],
+table.flexible_invoices_tax td input[type=number] {
+	width: 100%;
+	padding: 5px 7px;
+	margin: 0;
+	border: 0;
+    max-width: 100%;
+}
+
+table.flexible_invoices_tax td select:focus {
+    border-color: #FFF;
+    color: #016087;
+    box-shadow: 0 0 0 0 #FFF;
+}
+
+table.flexible_invoices_tax td.apply_to_shipping,
+table.flexible_invoices_tax td.compound {
+	padding: 5px 7px;
+	vertical-align: middle
+}
+
+table.flexible_invoices_tax td.apply_to_shipping input,
+table.flexible_invoices_tax td.compound input {
+	width: auto;
+	padding: 0
+}
+
+table.flexible_invoices_tax td:last-child {
+	border-right: 0
+}
+
+table.flexible_invoices_tax tr.current td {
+	background-color: #fefbcc
+}
+
+table.flexible_invoices_tax .cost,
+table.flexible_invoices_tax .cost input,
+table.flexible_invoices_tax .item_cost,
+table.flexible_invoices_tax .item_cost input {
+	text-align: right
+}
+
+table.flexible_invoices_tax th.delete,
+table.flexible_invoices_tax th.sort {
+	width: 30px;
+	padding: 0 4px;
+}
+
+table.flexible_invoices_tax td.delete,
+table.flexible_invoices_tax td.sort {
+	padding: 0 4px;
+	width: 30px;
+	text-align: center;
+}
+
+table.flexible_invoices_tax .ui-sortable:not(.ui-sortable-disabled) td.sort {
+	cursor: move;
+	font-size: 15px;
+	background: #f9f9f9;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.flexible_invoices_tax tfoot th {
+	border-top: 1px solid #DFDFDF;
+}
+
+table.flexible_invoices_tax .ui-sortable:not(.ui-sortable-disabled) td.sort:before {
+	content: "\f333";
+	font-family: Dashicons;
+	text-align: center;
+	line-height: 1;
+	color: #999;
+	display: inline-block;
+	width: 17px;
+	height: 100%;
+	font-size: 20px;
+}
+
+table.flexible_invoices_tax .delete-item {
+	text-decoration: none;
+}
+
+table.flexible_invoices_tax .ui-sortable:not(.ui-sortable-disabled) td.sort:hover:before {
+	color: #333;
+}
+
+table.flexible_invoices_tax .button {
+	float: left;
+	margin-right: 5px
+}
+
+table.flexible_invoices_tax .export,
+table.flexible_invoices_tax .import {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px
+}
+
+table.flexible_invoices_tax span.tips {
+	padding: 0 3px
+}
+
+table.flexible_invoices_tax .pagination {
+	float: right
+}
+
+table.flexible_invoices_tax .pagination .button {
+	margin-left: 5px;
+	margin-right: 0
+}
+
+table.flexible_invoices_tax .pagination .current {
+	background: #bbb;
+	text-shadow: none
+}
+
+table.flexible_invoices_tax tfoot th {
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+table.flexible_invoices_tax tr:last-child td {
+	border-bottom: 0
+}
+
+.flexible_invoices_currency td p,
+.flexible_invoices_tax td p {
+	margin: 0px;
+}
+
+.flexible_invoices_currency td p select,
+.flexible_invoices_tax td p select {
+	width: 100%;
+}
+
+/**
+ ## Form layout for settings
+ */
+.inspire-settings {
+	display: table;
+	width: 100%;
+}
+
+.inspire-settings .inspire-main-content,
+.inspire-settings .inspire-sidebar {
+	display: table-cell;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.inspire-settings .inspire-sidebar .inside {
+	padding: 0 10px;
+}
+
+.inspire-settings .inspire-main-content {
+	min-width: 770px;
+}
+
+.inspire-settings .inspire-sidebar {
+	padding-left: 30px;
+	width: 280px;
+}
+
+/**
+ ## End Form Layout
+ */
+
+.form-table td.header-column {
+	padding-left: 0;
+	padding-top: 0;
+}
+
+.form-table td.header-column h2, .form-table td.header-column h3, .form-table td.header-column h4 {
+	margin: 0 0;
+	padding: 0 0 1em;
+}
+
+.form-table td.forminp p.description,
+.form-table td.header-column p {
+	font-size: 13px;
+}
+
+.inspire_invoice_page_flexible-invoices-reports-settings .form-table td,
+.inspire_invoice_page_download .form-table td {
+	padding: 10px 0;
+}
+
+.js-subsubsub-wrapper {
+	margin-bottom: 20px;
+}
+
+.js-subsubsub-wrapper li:last-child span {
+	display: none;
+}
+
+
+span.pro-version {
+	display: inline-block;
+	padding-left: 10px;
+	color: dodgerblue;
+}
+
+table.pro-version .remove-disabled {
+	display: none;
+}
+
+form.nowoo .subsubsub {
+	display: none;
+}
+
+h4 .pro-version {
+	padding-left: 0;
+}
+
+.disable-for-pro {
+	color: #BBB;
+}
+
+.remove-disabled {
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px 4px;
+	box-shadow: none;
+	outline: 0;
+}
+
+.remove-disabled:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+.form-table td p.submit {
+	padding: 0;
+	margin: 0;
+}

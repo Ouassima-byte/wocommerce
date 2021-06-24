@@ -1,0 +1,50 @@
+{
+    "name": "wpdesk\/wc-order-abstract",
+    "description": "WC Order Abstract",
+    "license": "MIT",
+    "keywords": [
+        "wc-order",
+        "woocommerce"
+    ],
+    "homepage": "https:\/\/gitlab.com\/wpdesk\/wc-order-abstract",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "piotr.potrebka",
+            "email": "piotr.potrebka@wpdesk.net"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "psr\/log": "^1.1.0"
+    },
+    "require-dev": {
+        "10up\/wp_mock": "*",
+        "mockery\/mockery": "*",
+        "php-stubs\/woocommerce-stubs": "^5.3",
+        "php-stubs\/wordpress-stubs": "^5.7",
+        "phpunit\/phpunit": "<7",
+        "squizlabs\/php_codesniffer": "^3.0.2",
+        "wimg\/php-compatibility": "^8",
+        "wp-coding-standards\/wpcs": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPDeskFIVendor\\WPDesk\\Library\\WPDeskOrder\\": "src"
+        }
+    },
+    "autoload-dev": {},
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    }
+}

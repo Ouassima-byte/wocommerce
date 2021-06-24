@@ -1,0 +1,80 @@
+.fiaf-container {
+	border: 1px solid #ccd0d4;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 3px;
+	position: relative;
+}
+
+.fiaf-container select {
+	width: 100%;
+	max-width: 100%;
+}
+
+.fiaf-container h4 {
+	margin: 0 0 10px 0;
+	padding: 0 0;
+}
+
+.field-row {
+	display: block;
+	width: 100%;
+	padding: 3px 0;
+}
+
+.field-half {
+	position: relative;
+}
+
+.field-half input {
+	width: 46%;
+	display: inline-block;
+}
+
+.field-half input:last-child {
+	position: absolute;
+	right: 0;
+}
+
+.submit-filters p {
+	padding: 0 0;
+	margin: 0 0;
+	text-align: right;
+}
+
+.fiaf-container select,
+.wp-core-ui .fiaf-container select,
+.fiaf-container input[type="text"],
+.fiaf-container input[type="date"] {
+	height: 28px;
+	min-height: 28px;
+	color: #666;
+	font-size: 13px;
+}
+
+.notice-dismiss {
+	position: absolute;
+	top: 0;
+	right: 1px;
+	border: none;
+	margin: 0;
+	padding: 9px;
+	background: none;
+	color: #787c82;
+	cursor: pointer;
+}
+
+.notice-dismiss::before {
+	background: none;
+	color: #787c82;
+	content: "\f153";
+	display: block;
+	font: normal 16px/20px dashicons;
+	speak: never;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

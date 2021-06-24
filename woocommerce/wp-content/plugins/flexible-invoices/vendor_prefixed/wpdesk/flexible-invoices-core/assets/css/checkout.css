@@ -1,0 +1,7 @@
+.hide_vat_field {
+    display: none;
+}
+
+#billing_invoice_ask_field .optional {
+    display: none;
+}
